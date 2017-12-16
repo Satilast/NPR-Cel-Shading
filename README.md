@@ -1,1 +1,0 @@
-# NPR-Cel-Shading
