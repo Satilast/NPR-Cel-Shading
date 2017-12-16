@@ -56,9 +56,8 @@ public class Interface extends JFrame {
 
         canvas = new GLCanvas();
         canvas.addKeyListener(myListener);
-        canvas.addGLEventListener(new Cel_Shading());
         canvas.setBounds(0, 0, center.getWidth(), center.getHeight());
-        choice = new JButton("Выбрать файл модели");
+        choice = new JButton("Г‚Г»ГЎГ°Г ГІГј ГґГ Г©Г« Г¬Г®Г¤ГҐГ«ГЁ");
         choice.setSize(130, 25);
         choice.setLocation(0, getHeight());
         choice.addMouseListener(new MouseListener() {
@@ -78,7 +77,7 @@ public class Interface extends JFrame {
             public void mouseExited(MouseEvent e) {
             }
         });
-        color = new JButton("Выбрать оттенок освещения");
+        color = new JButton("Г‚Г»ГЎГ°Г ГІГј Г®ГІГІГҐГ­Г®ГЄ Г®Г±ГўГҐГ№ГҐГ­ГЁГї");
         color.setSize(130, 25);
         color.setLocation(0, getHeight());
         color.setVisible(true);
